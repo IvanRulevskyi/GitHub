@@ -1,14 +1,13 @@
-//
-//  main.cpp
-//  GitHub
-//
-//  Created by Иван Рулевский on 01.04.2024.
-//
-
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int addNumber(int num1, int num2)
+{
+    int result = num1 + num2;
+    return result;
+}
+
+int main()
+{
+
 }
